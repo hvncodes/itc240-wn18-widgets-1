@@ -1,5 +1,5 @@
 <?php include 'includes/config.php'?>
-<?php include 'includes/header.php'?>
+<?php get_header()?>
 <h2>Contact Us</h2>
 <?php
 //contact.php
@@ -83,7 +83,7 @@ if(isset($_POST['Submit']))
 
 }
 ?>
-<?php include 'includes/footer.php';
+<?php get_footer();
 
 function coffee_clean_post($key)
 {

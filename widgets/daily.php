@@ -85,7 +85,7 @@ switch($day)
         $history = 'Jean shorts man braid farm-to-table swag, cronut forage pickled street art bespoke post-ironic poutine dreamcatcher blue bottle etsy.';
 }
 ?>
-<?php include 'includes/header.php'?>
+<?php get_header()?>
 <h2>Daily Special: <?=$day?></h2>
 <header>
     <p id="date"><?=$myDate?></p>
@@ -109,4 +109,4 @@ switch($day)
 <p><a href="daily.php?day=Sunday">Sunday</a></p>
 <div id="divider"></div>
 <div class="divider"></div>
-<?php include 'includes/footer.php'?>
+<?php get_footer()?>
